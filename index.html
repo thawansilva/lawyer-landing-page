@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Landing page case for a Lawyer" />
+    <meta name="keywords" content="lawyer, advocacy, justice" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Merryweather -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Noto sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Advocacia Teixeira</title>
+  </head>
+  <body class="font-['Noto_sans'] bg-gray-200">
+    <section
+      id="home"
+      class="min-h-[95vh] bg-black/60 bg-cover bg-fixed bg-center md:bg-top bg-[url('./img/justice.jpg')] bg-blend-overlay"
+    >
+      <header class="fixed top-0 w-full duration-300 ease-in-out">
+        <nav
+          class="p-5 bg-white md:flex md:items-center md:justify-around md:bg-transparent md:text-white"
+        >
+          <div class="flex items-center justify-between">
+            <a
+              href="#home"
+              class="text-2xl font-bold text-yellow-500 md:text-white text-center font-[Merryweather] md:text-3xl"
+            >
+              Teixeira
+            </a>
+            <span name="close" class="hidden cursor-pointer md:hidden"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6 18 18 6M6 6l12 12"
+                />
+              </svg>
+            </span>
+            <span name="bar" class="inline-block cursor-pointer md:hidden"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+            </span>
+          </div>
+          <ul
+            class="bg-white md:bg-transparent transition ease-in-out duration-300 gap-4 w-full md:w-auto absolute left-0 pl-4 md:p-0 opacity-0 md:z-auto md:static py-4 md:flex md:items-center md:opacity-100 top-[-400px]"
+            name="nav"
+          >
+            <li class="mt-3 md:my-0">
+              <a
+                href="#sobre"
+                class="text-lg font-bold duration-200 hover:text-yellow-500"
+                >Sobre</a
+              >
+            </li>
+            <li class="mt-3 md:my-0">
+              <a
+                href="#serviços"
+                class="text-lg font-bold duration-200 hover:text-yellow-500"
+                >Serviços</a
+              >
+            </li>
+            <li class="mt-3 md:my-0">
+              <a
+                href="#depoimentos"
+                class="text-lg font-bold duration-200 hover:text-yellow-500"
+                >Depoimentos</a
+              >
+            </li>
+            <li class="mt-3 md:my-0">
+              <a
+                href="#contato"
+                class="text-lg font-bold duration-200 hover:text-yellow-500"
+                >Contato</a
+              >
+            </li>
+            <a
+              href=""
+              class="inline-block px-6 py-2 mt-2 font-bold text-black duration-200 bg-yellow-500 rounded hover:bg-yellow-400 md:hidden"
+              >Agende uma consulta</a
+            >
+          </ul>
+          <a
+            href=""
+            class="hidden px-6 py-2 mt-2 font-bold text-black duration-200 bg-yellow-500 rounded-full hover:bg-yellow-400 md:mt-0 md:block"
+            >Fale comigo</a
+          >
+        </nav>
+      </header>
+      <div
+        class="container w-4/5 max-w-[700px] px-4 mx-auto flex items-center justify-center py-48"
+      >
+        <div class="text-left md:text-center">
+          <h1
+            class="text-4xl font-extrabold text-yellow-500 md:text-5xl font-['Merriweather']"
+          >
+            Defesa dos seus direitos, a qualquer hora
+          </h1>
+          <p class="my-2 text-gray-200 md:text-xl">
+            Lutando pelos seus direitos à mais de 10 anos
+          </p>
+          <a
+            href=""
+            class="block px-8 py-3 font-bold transition duration-200 ease-in bg-yellow-500 md:mx-auto w-fit rounded-3xl hover:bg-white hover:scale-105"
+            >Entre em contato agora</a
+          >
+        </div>
+      </div>
+    </section>
+    <main>
+      <!-- Sobre -->
+      <section id="sobre" class="px-4 md:px-0">
+        <div class="container mx-auto">
+          <div class="px-4 py-8 lg:px-24 md:py-20">
+            <div
+              class="w-4/5 mx-auto text-left md:text-center md:mx-0 md:w-full"
+            >
+              <h2
+                class="font-bold md:w-full text-4xl font-['Merriweather'] md:text-5xl"
+              >
+                Sobre
+              </h2>
+              <p class="mt-2 text-gray-600">Excelência em serviços jurídicos</p>
+            </div>
+            <div
+              class="mt-3 mb-6 md:flex md:items-center md:justify-between lg:items-start md:gap-6"
+            >
+              <div class="w-4/5 mx-auto md:mx-0 md:w-1/2">
+                <h3
+                  class="font-bold text-2xl font-['Merriweather'] md:text-3xl text-yellow-500"
+                >
+                  Jorge Teixeira
+                </h3>
+                <p class="py-2 text-gray-600">
+                  É um advogado altamente qualificado especializado em Direito
+                  Trabalhista e de Família. Com mais de 10 anos de experiência,
+                  Jorge dedica-se a proteger os direitos dos trabalhadores,
+                  atuando em casos de disputas trabalhistas, negociações
+                  sindicais e defesa em ações judiciais. Além disso, ele oferece
+                  suporte jurídico em questões de Direito de Família, incluindo
+                  divórcios, guarda de filhos e processos de adoção, sempre com
+                  um enfoque humanizado e personalizado para cada cliente.
+                </p>
+              </div>
+              <div class="">
+                <img
+                  src="./img/man.jpg"
+                  alt="Homem vestindo paletó preto formal"
+                  width="640"
+                  height="471"
+                  class="w-4/5 md:w-full md:max-w-[450px] rounded-3xl mx-auto"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Serviços -->
+      <section
+        id="serviços"
+        class="px-4 md:px-0 bg-black/50 bg-blend-overlay bg-cover bg-top bg-fixed bg-[url('./img/hammer.jpg')] text-white"
+      >
+        <div class="container mx-auto">
+          <div class="px-4 py-16 text-center md:px-24 md:py-32">
+            <div class="w-4/5 mx-auto">
+              <h2
+                class="font-bold text-4xl font-['Merriweather'] md:text-5xl text-yellow-500"
+              >
+                Serviços
+              </h2>
+              <p class="mt-3">
+                Serviços jurídicos para atender as suas necessidades
+              </p>
+            </div>
+            <div class="flex flex-wrap gap-4 mt-3">
+              <div
+                class="w-4/5 mx-auto border-b-2 border-b-yellow-500 py-3 rounded-lg max-w-[400px] flex items-center"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-16 h-16 mx-auto"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z"
+                  />
+                </svg>
+                <div class="w-3/5 text-left">
+                  <h3 class="mt-2 text-xl font-bold text-yellow-500">
+                    Direito Trabalhista
+                  </h3>
+                  <ul>
+                    <li>- Rescisão indireta</li>
+                    <li>- Reversão de justa causa</li>
+                    <li>- Cobrança de horas extras</li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="w-4/5 mx-auto border-b-2 border-b-yellow-500 py-3 rounded-lg max-w-[400px] flex items-center"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-16 h-16 mx-auto"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z"
+                  />
+                </svg>
+                <div class="w-3/5 text-left">
+                  <h3 class="mt-2 text-xl font-bold text-yellow-500">
+                    Direito Previdenciário
+                  </h3>
+                  <ul>
+                    <li>- Aposentadoria por idade</li>
+                    <li>- Aposentadoria por invalidez</li>
+                    <li>- Reconhecimento de tempo de contribuição</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <a
+              href=""
+              class="inline-block px-8 py-3 mx-auto mt-6 mb-4 font-bold text-black transition duration-200 ease-in bg-yellow-500 rounded-3xl hover:bg-yellow-400 md:mb-0 w-[225px]"
+              >Inicie seu Caso Hoje</a
+            >
+          </div>
+        </div>
+      </section>
+      <section id="depoimentos" class="px-4 md:px-0">
+        <div class="container mx-auto">
+          <div class="px-4 py-8 lg:px-14 md:py-20">
+            <div
+              class="w-4/5 mx-auto mb-4 text-left md:text-center md:mx-0 md:w-full"
+            >
+              <h2
+                class="font-bold md:w-full text-4xl font-['Merriweather'] md:text-5xl"
+              >
+                Depoimentos
+              </h2>
+              <p class="mt-2 text-gray-600">
+                Comentários que refletem nosso compromisso
+              </p>
+            </div>
+            <div class="flex flex-wrap gap-5">
+              <div
+                class="w-4/5 px-3 mx-auto text-center transition duration-200 ease-in bg-gray-100 rounded-lg shadow-lg md:w-2/5 lg:w-[30%] py-9"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="mx-auto size-10"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 0 1-2.555-.337A5.972 5.972 0 0 1 5.41 20.97a5.969 5.969 0 0 1-.474-.065 4.48 4.48 0 0 0 .978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25Z"
+                  />
+                </svg>
+                <h3 class="text-2xl font-bold text-yellow-500">Ana Luiza</h3>
+                <p class="my-1">
+                  Jorge fiu extremamente atencioso e prestativo durante todo o
+                  processo do meu divórcio. Senti-me apoiada e segura em todas
+                  as etapas, recomendo a todos.
+                </p>
+                <i class="text-sm">Google Avaliações</i>
+              </div>
+              <div
+                class="w-4/5 px-3 mx-auto text-center transition duration-200 ease-in bg-gray-100 rounded-lg shadow-lg md:w-2/5 lg:w-[30%] py-9"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="mx-auto size-10"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 0 1-2.555-.337A5.972 5.972 0 0 1 5.41 20.97a5.969 5.969 0 0 1-.474-.065 4.48 4.48 0 0 0 .978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25Z"
+                  />
+                </svg>
+                <h3 class="text-2xl font-bold text-yellow-500">
+                  Carlos Machado
+                </h3>
+                <p class="my-1">
+                  O Jorge me ajudou a resolver um problema complexo com
+                  eficiência e profissionalismo. Recomendo fortemente!
+                </p>
+                <i class="text-sm">Google Avaliações</i>
+              </div>
+              <div
+                class="w-4/5 px-3 mx-auto text-center transition duration-200 ease-in bg-gray-100 rounded-lg shadow-lg md:w-2/5 lg:w-[30%] py-9"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="mx-auto size-10"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 0 1-2.555-.337A5.972 5.972 0 0 1 5.41 20.97a5.969 5.969 0 0 1-.474-.065 4.48 4.48 0 0 0 .978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25Z"
+                  />
+                </svg>
+                <h3 class="text-2xl font-bold text-yellow-500">
+                  Ricardo Silveira
+                </h3>
+                <p class="my-1">
+                  Precisei de assistência jurídica para minha empresa e não
+                  poderia estar mais satisfeito com o atendimento e os
+                  resultados obtidos.
+                </p>
+                <i class="text-sm">Google Avaliações</i>
+              </div>
+              <a
+                href=""
+                class="px-6 py-2 mx-auto mt-2 font-bold text-black duration-200 bg-yellow-500 rounded-full hover:bg-yellow-400 md:mt-0"
+                >Quero resolver o meu caso</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contato -->
+      <section id="contato" class="bg-yellow-500">
+        <div class="px-4 py-8 lg:px-14 md:py-20">
+          <div class="w-4/5 mx-auto mb-4 text-center md:mx-0 md:w-full">
+            <h2
+              class="text-center text-black font-bold md:w-full text-4xl font-['Merriweather'] md:text-5xl"
+            >
+              Entre em Contato
+            </h2>
+            <p class="mt-1 text-gray-600">Estamos aqui para ajudar</p>
+          </div>
+          <div class="w-4/5 max-w-md p-6 mx-auto bg-white rounded-lg shadow-lg">
+            <form action="#" method="POST">
+              <div class="mb-2">
+                <label for="nome" class="block mb-2 font-medium text-gray-700"
+                  >Nome</label
+                >
+                <input
+                  type="text"
+                  placeholder="Digite seu nome"
+                  id="nome"
+                  name="nome"
+                  class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-800"
+                  required
+                />
+              </div>
+              <div class="mb-2">
+                <label for="email" class="block mb-2 font-medium text-gray-700"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Digite seu email"
+                  name="email"
+                  class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-800"
+                  required
+                />
+              </div>
+              <div class="mb-1">
+                <label
+                  for="mensagem"
+                  class="block mb-2 font-medium text-gray-700"
+                  >Mensagem</label
+                >
+                <textarea
+                  placeholder="Digite sua mensagem"
+                  id="mensagem"
+                  name="mensagem"
+                  rows="4"
+                  class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-800"
+                  required
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="inline-block w-full px-8 py-3 mx-auto mt-1 mb-4 font-bold transition duration-200 ease-in bg-yellow-500 rounded-3xl hover:bg-yellow-400 md:mb-0"
+              >
+                Enviar
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-gray-100">
+      <p class="w-2/3 py-4 mx-auto text-sm font-bold text-center">
+        Copyright &#169; Advocacia Teixeira
+        <span class="font-normal">
+          / Rua das Flores, 456, Centro, São Paulo, SP, 01000-000
+        </span>
+      </p>
+    </footer>
+    <script src="index.js" defer></script>
+  </body>
+</html>
